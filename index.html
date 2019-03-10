@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="main.js"> </script>    
+    <head>
+        <body>
+           
+           <div id="cabecalho">
+            <h1>Conversor de Binário - Decimal / Decimal - Binário</h1>
+
+           </div>
+           <hr>
+
+            <p>
+                <h2>1 byte</h2>
+                <label>Byte para decimal(max 1byte):
+                    <input type="text" maxlength="8"id="binario" name="binario" placeholder="digite o byte aqui" />
+                    <input type="button" onclick="toDecimal()" value="Gerar"/>     
+                </label>
+            
+                <p>O valor em decimal é igual a: <b id="output"></b></p>
+            </p>
+            <p>
+                <label>decimal para byte (max 255):
+                    <input type="number" id="decimal" name="decimal" min="0" max="255" />
+                    <input type="button"  onclick="toBinario()" value="Gerar"/> 
+                </label>
+            </p>
+                <p>O valor em binário é igual a: <b id="output2"></b></p>
+            <hr/>
+            <p>
+                <h2><em>N</em> bytes</h2>
+                <label>Digite o valor binário:
+                    <input id="valorBinario" nome="valorBinario" type="text" placeholder="ex: 101010111"/>
+                    <input type="button" onclick="infinito()" value="Gerar decimal"/>    
+                </label>
+                    <p>O valor em decimal é igual a: <b id="output3"></b></p>
+            </p><p>
+            <label>Converter decimal para binário:
+                <input type="number" nome="valorDecimal" id="valorDecimal" placeholder="ex: 456">
+                <input type="button" onclick="bin()" value="Gerar binário"/>
+            </label>
+            <p>O valor em binário é igual a: <b id="output4"></b></p>
+        </p>
+        </body>
+</html>

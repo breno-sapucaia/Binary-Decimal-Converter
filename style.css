@@ -1,0 +1,27 @@
+#cabecalho{
+    text-align:center;
+}
+*{
+    padding:0;
+    color:rgb(249, 250, 214);
+}
+body{
+    margin-left:20%;
+    margin-right:20%;
+    background-color:black;
+}
+#output{
+    color:rgb(255, 199, 44);
+}
+#output2{
+    color:rgb(255, 199, 44);
+}
+#output3{
+    color:rgb(255, 199, 44);
+}
+#output4{
+    color:rgb(255, 199, 44);
+}
+input{
+    color:black;
+}
